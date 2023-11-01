@@ -26,14 +26,14 @@ export default function Home() {
       ) : (
         <>
           <HomeBox>
-            <div className="flex flex-col max-w-[1280px] w-full">
+            <div className="flex flex-col max-w-[1700px] w-full">
               <BandLogo />
-              <BandImage url="/JTN_band.png" />
+              <BandImage url="/graphics/JTN_main.jpg" />
             </div>
-            <SocialMedia />
             <SpotifyComponent />
-            <div className="flex flex-col max-w-[1280px] w-full">
-              <BandImage url="/tine.png" />
+            <SocialMedia />
+            <div className="flex flex-col max-w-[1700px] w-full mb-[60px]">
+              <BandImage url="/graphics/JTN_asbest.jpg" />
             </div>
           </HomeBox>
           <Footer />

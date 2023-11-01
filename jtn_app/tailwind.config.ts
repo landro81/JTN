@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       letterSpacing: {
-        tightest: "-.11em",
+        tightest: "-.10em",
         tighter: "-.05em",
         tight: "-.05em",
         normal: "0",
