@@ -3,7 +3,7 @@ import { TextResources } from "@/assets/text";
 export const SpotifyComponent = () => {
   return (
     <div className="flex flex-col p-5 items-center justify-center">
-      <div className="flex bg-[#ffff00] px-2 mt-[-40px] md:mt-[-55px] lg:mt-[-60px] xl:mt-[-90px] ml-[-25px] md:ml-[-230px] h-[auto] max-h-[40px] items-center">
+      <div className="flex bg-[#ffff00] px-2 mt-[-40px] md:mt-[-55px] lg:mt-[-60px] xl:mt-[-58px] ml-[-90px] md:ml-[-230px] h-[auto] max-h-[43px] items-center">
         <p className="flex text-[1em] md:text-[1.5em] lg:text-[2.5em] xl:text-[3em] tracking-tightest font-sans">
           {TextResources.NEWS_SINGLE}
         </p>

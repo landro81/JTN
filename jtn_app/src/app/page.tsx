@@ -32,8 +32,11 @@ export default function Home() {
             </div>
             <SpotifyComponent />
             <SocialMedia />
-            <div className="flex flex-col max-w-[1700px] w-full mb-[60px]">
+            <div className="flex flex-col max-w-[1700px] w-full mb-[1px]">
               <BandImage url="/graphics/JTN_asbest.jpg" />
+            </div>
+            <div className="flex flex-col max-w-[1700px] w-full mb-[1px]">
+              <BandImage url="/graphics/JTN_minde.jpg" />
             </div>
           </HomeBox>
           <Footer />
