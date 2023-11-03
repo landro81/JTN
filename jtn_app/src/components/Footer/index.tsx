@@ -3,7 +3,7 @@ import Typography from "../Typography";
 import { TextResources } from "@/assets/text";
 
 export const Footer = () => (
-  <div className="w-full flex flex-col items-center justify-center h-[100px] bg-white lg:h-[140px] tracking-tight mt-auto">
+  <div className="box-border w-full flex flex-col items-center justify-center h-[120px] bg-white lg:h-[140px] tracking-tight mt-auto overflow-x-hidden">
     <Typography color="#c3c3c3" variant="Bold">
       {TextResources.BAND_NAME}
     </Typography>

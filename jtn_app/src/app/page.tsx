@@ -12,31 +12,31 @@ export default function Home() {
 
   setTimeout(() => {
     setIsOpen(true);
-  }, 450);
+  }, 500);
 
   return (
-    <>
+    <div className="flex overflow-y-auto">
       <BandLogo />
       <div
-        className={`flex-col transition-opacity ease-in duration-500 ${
-          $isOpen ? "opacity-100 " : "opacity-0"
+        className={`flex-col z-1 transition-opacity ease-in duration-500 ${
+          $isOpen ? "opacity-100" : "opacity-0"
         }`}
       >
         <HomeBox>
-          <div className="flex flex-col max-w-[1700px] w-full">
+          <div className="flex flex-col max-w-[1700px] w-full overflow-x-hidden">
             <BandImage url="/graphics/JTN_main.jpg" priority />
           </div>
           <SpotifyComponent />
           <SocialMedia />
-          <div className="flex flex-col max-w-[1700px] w-full mb-[1px]">
+          <div className="flex flex-col max-w-[1700px] w-full mb-[1px] overflow-x-hidden">
             <BandImage url="/graphics/JTN_asbest.jpg" />
           </div>
-          <div className="flex flex-col max-w-[1700px] w-full mb-[1px]">
+          <div className="flex flex-col max-w-[1700px] w-full mb-[1px]overflow-x-hidden">
             <BandImage url="/graphics/JTN_minde.jpg" />
           </div>
         </HomeBox>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }

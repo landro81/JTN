@@ -9,4 +9,5 @@ export const HomeBox = styled.div`
   color: #484848;
   min-width: 350px;
   overflow-x: hidden;
+  box-sizing: border-box;
 `;
