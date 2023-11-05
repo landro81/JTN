@@ -7,6 +7,7 @@ export const SocialMedia = () => {
       <Link
         href={"https://www.instagram.com/jahnterjenilsen_og_gjengen/"}
         target="_blank"
+        rel="noopener"
       >
         <Image
           src={"/graphics/instagram.png"}

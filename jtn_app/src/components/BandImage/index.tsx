@@ -12,7 +12,7 @@ export const BandImage = ({ url, priority = false }: Props) => {
         priority={priority}
         loading={priority ? "eager" : "lazy"}
         src={url}
-        alt="JTN"
+        alt="Bandbilde Jahn Terje Nilsen og gjengen"
         width={0}
         height={0}
         sizes="100vw"

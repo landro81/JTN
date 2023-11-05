@@ -14,12 +14,20 @@ export const Footer = () => {
       <Typography color={color} variant="Bold">
         {TextResources.COPYRIGHT}
       </Typography>
-      <Link target="_blank" href={"https://www.instagram.com/jarlehm/"}>
+      <Link
+        target="_blank"
+        href={"https://www.instagram.com/jarlehm/"}
+        rel="noopener"
+      >
         <Typography variant="Description" color={color}>
           {TextResources.PHOTOGRAPHER_NAME}
         </Typography>
       </Link>
-      <Link target="_blank" href={"https://www.instagram.com/herrlandro/"}>
+      <Link
+        target="_blank"
+        href={"https://www.instagram.com/herrlandro/"}
+        rel="noopener"
+      >
         <Typography variant="Description" color={color}>
           {TextResources.DEV_NAME}
         </Typography>
