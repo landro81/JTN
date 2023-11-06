@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Jahn Terje Nilsen & Gjengen",
   description:
     "Som gatevant i Bergens mangefasetterte musikkscene stikker Jahn Terje Nilsen & Gjengen frem et frekt og freidig musikalsk åsyn.",
+  creator: "Helge-Mikael Landro",
   authors: [
     {
       name: "Helge-Mikael Landro",
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
   keywords: [
     "Jahn Terje Nilsen & Gjengen, Jahn Terje Nilsen og Gjengen, Helge-Mikael Landro, Jan-Christoph Cassel Noven, Jahn Terje Nilsen, Eg ser du har lest, Mine grunner privat, Sammenkomst, Jahn T Loven, bergensrock, bergensrap",
   ],
+  verification: { google: "Ie_yaJ4h2mdZfvVKEMLoDxf7G-IVFrPGYkOx2eY2MfU" },
 };
 
 export default function RootLayout({
