@@ -7,7 +7,7 @@ export const Footer = () => {
   const color = Color.JTN_GREY_TEXT;
 
   return (
-    <div className="box-border w-full flex flex-col items-center justify-center h-[120px] bg-white lg:h-[140px] tracking-tight mt-auto overflow-x-hidden">
+    <div className="box-border w-full flex flex-col items-center justify-center h-[120px] bg-white lg:h-[140px] tracking-tight mt-auto overflow-x-hidden max-w-[1700px]">
       <Typography color={color} variant="Bold">
         {TextResources.BAND_NAME}
       </Typography>

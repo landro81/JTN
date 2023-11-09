@@ -1,16 +1,12 @@
-import { TextResources } from "@/assets/text";
+import { Spotify } from "react-spotify-embed";
 
 export const SpotifyComponent = () => {
   return (
-    <div className="flex flex-col p-5 items-center justify-center">
-      <div className="flex bg-[#ffff00] px-2 mt-[-40px] md:mt-[-55px] lg:mt-[-60px] xl:mt-[-58px] ml-[-90px] md:ml-[-230px] h-[auto] max-h-[43px] items-center">
-        <h1 className="flex text-[1em] md:text-[1.5em] lg:text-[2.5em] xl:text-[3em] tracking-tightest font-sans">
-          {TextResources.NEWS_SINGLE}
-        </h1>
-      </div>
-      {/* <div className="flex w-full items-center justify-center mt-3">
-        <Spotify link="https://open.spotify.com/track/6XcoiOYiNbIxzpt8WRxq8Z?si=aaac09b3aa944713" />
-      </div> */}
+    <div className="flex flex-col items-center justify-center mt-3 mb-7">
+      <Spotify
+        width={"350px"}
+        link="https://open.spotify.com/album/1lvGzyBSCeUl7J0Cs40Fn0?si=6y_V0IDKRHG9f1VkN65JSQ&nd=1"
+      />
     </div>
   );
 };

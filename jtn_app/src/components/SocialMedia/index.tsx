@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const SocialMedia = () => {
   return (
-    <div className="flex justify-end w-full max-w-[1280px] space-x-2 items-center justify-center mb-3 mt-[-20px]">
+    <div className="z-50 absolute top-2 left-2 lg:left-4 lg:top-4 flex space-x-2 lg:space-x-2.5">
       <Link
         href={"https://www.instagram.com/jahnterjenilsen_og_gjengen/"}
         target="_blank"
@@ -16,12 +16,18 @@ export const SocialMedia = () => {
           height={25}
         />
       </Link>
-      <Image
-        src={"/graphics/spotify.svg"}
-        alt="spotify"
-        width={25}
-        height={25}
-      />
+      <Link
+        href={"https://open.spotify.com/artist/4Po93MJp7T5W6knzA13UF8"}
+        target="_blank"
+        rel="noopener"
+      >
+        <Image
+          src={"/graphics/spotify.svg"}
+          alt="instagram"
+          width={25}
+          height={25}
+        />
+      </Link>
     </div>
   );
 };
