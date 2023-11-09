@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative left-1/2 transform -translate-x-1/2 max-w-[1700px]">
+      <div className="relative z-50 left-1/2 transform -translate-x-1/2 max-w-[1700px]">
         <BandLogo />
         <SocialMedia />
       </div>
