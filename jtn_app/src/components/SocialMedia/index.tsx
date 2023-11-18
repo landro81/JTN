@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const SocialMedia = () => {
   return (
-    <div className="flex z-50 absolute top-1 left-1 sm:top-2 sm:left-2 space-x-2 md:space-x-2.5 items-center">
+    <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-3 items-center justify-center z-50 absolute top-2 left-2">
       <Link
         href={"https://www.instagram.com/jahnterjenilsen_og_gjengen/"}
         target="_blank"
