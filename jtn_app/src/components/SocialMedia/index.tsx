@@ -23,7 +23,7 @@ export const SocialMedia = () => (
       <Image src={"/graphics/tiktok.png"} alt="tiktok" width={25} height={25} />
     </Link>
     <Link
-      href={"https://www.youtube.com/watch?v=QqmRPdvYlaE"}
+      href={"https://www.youtube.com/watch?v=hDzPOFlyidM"}
       target="_blank"
       rel="noopener"
     >
@@ -43,7 +43,7 @@ export const SocialMedia = () => (
     </Link>
     <Link
       href={
-        "https://music.apple.com/us/album/eg-ser-du-har-lest/1714262141?i=1714262480"
+        "https://music.apple.com/no/artist/jahn-terje-nilsen-gjengen/1714262479"
       }
       target="_blank"
       rel="noopener"
