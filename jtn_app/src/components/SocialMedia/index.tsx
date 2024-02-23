@@ -23,7 +23,7 @@ export const SocialMedia = () => (
       <Image src={"/graphics/tiktok.png"} alt="tiktok" width={25} height={25} />
     </Link>
     <Link
-      href={"https://www.youtube.com/watch?v=hDzPOFlyidM"}
+      href={"https://www.youtube.com/watch?v=6aZHAGvqBU4"}
       target="_blank"
       rel="noopener"
     >

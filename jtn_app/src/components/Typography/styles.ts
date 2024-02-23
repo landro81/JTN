@@ -60,7 +60,7 @@ export const Lead = styled.div<IStyledProps>`
 
 export const Body = styled.div<IStyledProps>`
   ${({ color }) => shared(color)};
-  font-size: 0.875rem;
+  font-size: 0.975rem;
   font-weight: 350;
   line-height: 1.6;
 `;
